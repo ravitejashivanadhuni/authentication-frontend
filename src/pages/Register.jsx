@@ -8,6 +8,7 @@ import { Link } from 'react-router-dom';
 const OTP_LENGTH = 6;
 const OTP_RESEND_TIMER = 30; // seconds
 
+// Register Page with OTP Verification
 const Register = () => {
   const navigate = useNavigate();
   const { isDarkMode, toggleTheme } = useTheme();
