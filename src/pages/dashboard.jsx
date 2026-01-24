@@ -1,7 +1,7 @@
 import react from 'react';
 import { useTheme } from '../context/ThemeContext';
 
-
+// Dashboard Page with Theme Toggle and Logout
 export default function Dashboard() {
   const { isDarkMode, toggleTheme } = useTheme();
     return (
