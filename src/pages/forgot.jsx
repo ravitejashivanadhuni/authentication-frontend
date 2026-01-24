@@ -7,6 +7,7 @@ import { useTheme } from '../context/ThemeContext';
 const OTP_LENGTH = 6;
 const OTP_RESEND_TIMER = 30; // seconds
 
+// Forgot Password Page with OTP and Password Reset
 const ForgotPassword = () => {
   const navigate = useNavigate();
   const { isDarkMode, toggleTheme } = useTheme();
