@@ -1,4 +1,5 @@
 // src/pages/Landing.js
+// Landing page with theme toggle and navigation links
 import React from "react";
 import { useTheme } from "../context/ThemeContext";
 import { FaSun, FaMoon } from "react-icons/fa";
