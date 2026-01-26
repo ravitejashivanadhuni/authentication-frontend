@@ -5,7 +5,7 @@ import { Sun, Moon, Eye, EyeOff, Github, Mail } from "lucide-react";
 import { useTheme } from "../context/ThemeContext";
 import { Link } from "react-router-dom";
 
-// Login Page with Theme Toggle and Social Logins
+// Login Page with Theme Toggle and Social Logins with Tailwind CSS
 export default function Login() {
   const navigate = useNavigate();
   const { isDarkMode, toggleTheme } = useTheme();
