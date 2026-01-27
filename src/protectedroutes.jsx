@@ -1,4 +1,4 @@
-//give me the code for protectedroutes.jsx file
+//give me the code for protectedroutes.jsx file 
 import React from 'react';
 import { Navigate } from 'react-router-dom';
 import { isAuthenticated } from './utils/auth'; // Assume this utility checks auth status
