@@ -19,6 +19,7 @@ function App() {
           <Route path="/login" element={<Login />} />
           <Route path="/" element={<Landing />} />
           <Route path="/forgot-password-page" element={<ForgotPassword />} />
+          {/* protected routes */}
           <Route path="/dashboard" element={ <ProtectedRoute><Dashboard /></ProtectedRoute>} />
         </Routes>
       </Router>
