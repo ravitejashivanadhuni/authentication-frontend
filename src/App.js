@@ -9,6 +9,7 @@ import ForgotPassword from "./pages/forgot";
 import Dashboard from "./pages/dashboard";
 import ProtectedRoute from "./protectedroutes";
 
+// Main application component
 function App() {
   return (
     <ThemeProvider>
