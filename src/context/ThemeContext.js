@@ -1,4 +1,5 @@
 // src/context/ThemeContext.js
+//this is the context file for theme management (dark/light mode)
 import React, { createContext, useContext, useState, useEffect } from "react";
 
 const ThemeContext = createContext();
