@@ -42,6 +42,7 @@ const Register = () => {
   const [storedOtp, setStoredOtp] = useState('');
   const [error, setError] = useState('');
 
+  // Check password strength whether it meets the requirements or not
   const checkPasswordStrength = (password) => {
     const requirements = {
       length: password.length >= 8 && password.length <= 16,
