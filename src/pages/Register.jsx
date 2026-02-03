@@ -56,6 +56,7 @@ const Register = () => {
     setPasswordStrength({ score, requirements });
   };
 
+  // Check if email already exists in the database
   const checkEmailExists = async (email) => {
     try {
       const response = await axios.post('/api/auth/check-email', { email });
