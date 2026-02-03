@@ -86,7 +86,7 @@ const ForgotPassword = () => {
       }
     }
   };
-
+  // Handle backspace to move to previous input
   const handleOtpKeyDown = (index, e) => {
     if (e.key === 'Backspace' && !otp[index] && index > 0) {
       const prevInput = document.getElementById(`otp-input-${index - 1}`);
