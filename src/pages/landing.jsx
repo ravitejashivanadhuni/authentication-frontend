@@ -4,6 +4,7 @@ import React from "react";
 import { useTheme } from "../context/ThemeContext";
 import { FaSun, FaMoon } from "react-icons/fa";
 
+// Landing Page Component
 export default function Landing() {
   const { isDarkMode, toggleTheme } = useTheme();
 
