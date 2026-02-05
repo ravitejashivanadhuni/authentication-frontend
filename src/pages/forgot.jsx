@@ -69,7 +69,7 @@ const ForgotPassword = () => {
     } else if (resendTimer === 0) setCanResend(true);
     return () => clearInterval(timer);
   }, [otpSent, resendTimer]);
-
+// Handle OTP input change
   const handleOtpChange = (index, value) => {
     if (value.length <= 1) {
       const newOtp = [...otp];
