@@ -4,6 +4,7 @@ import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import { useTheme } from '../context/ThemeContext';
 
+// Constants
 const OTP_LENGTH = 6;
 const OTP_RESEND_TIMER = 30; // seconds
 
